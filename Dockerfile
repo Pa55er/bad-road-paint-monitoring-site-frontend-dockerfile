@@ -2,7 +2,7 @@ FROM node:18.15.0
 WORKDIR /home/workspace
 RUN git clone https://github.com/programmerJuni/final-frontend.git
 WORKDIR /home/workspace/final-frontend
-RUN git pull master
+RUN git pull https://github.com/programmerJuni/final-frontend.git
 
 WORKDIR /home/workspace/final-frontend/frontend
 RUN npm install --silent
