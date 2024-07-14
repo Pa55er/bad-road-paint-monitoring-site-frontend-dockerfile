@@ -1,8 +1,8 @@
 FROM node:18.15.0
 WORKDIR /home/workspace
-RUN git clone https://github.com/Pa55er/final-frontend.git
+RUN git clone https://github.com/Pa55er/Bad_Road_Paint_Monitoring_Site_Frontend.git
 WORKDIR /home/workspace/final-frontend
-RUN git pull https://github.com/Pa55er/final-frontend.git
+RUN git pull https://github.com/Pa55er/Bad_Road_Paint_Monitoring_Site_Frontend.git
 
 WORKDIR /home/workspace/final-frontend/frontend
 RUN npm install --silent
